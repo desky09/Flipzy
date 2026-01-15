@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flipzy - Your AI-Powered Local Grocery Review Platform</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav>
+        <div class="logo">
+            <img src="Untitled design (3).png" alt="AI Icon">
+            <div>
+                <h1>Flipzy</h1>
+                <p>Your AI-Powered Local Grocery Review Platform</p>
+            </div>
+        </div>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Businesses</a></li>
+            <li><a href="#">Shops</a></li>
+            <li><a href="#">Account Login</a></li>
+        </ul>
+    </nav>
+
+    <!-- Search Bar -->
+    <div class="search-bar">
+        <select id="state">
+            <option>Select State</option>
+            <option>Andhra Pradesh</option>
+            <option>Arunachal Pradesh</option>
+            <option>Assam</option>
+            <option>Bihar</option>
+            <option>Chhattisgarh</option>
+            <option>Goa</option>
+            <option>Gujarat</option>
+            <option>Haryana</option>
+            <option>Himachal Pradesh</option>
+            <option>Jharkhand</option>
+            <option>Karnataka</option>
+            <option>Kerala</option>
+            <option>Madhya Pradesh</option>
+            <option>Maharashtra</option>
+            <option>Manipur</option>
+            <option>Meghalaya</option>
+            <option>Mizoram</option>
+            <option>Nagaland</option>
+            <option>Odisha</option>
+            <option>Punjab</option>
+            <option>Rajasthan</option>
+            <option>Sikkim</option>
+            <option>Tamil Nadu</option>
+            <option>Telangana</option>
+            <option>Tripura</option>
+            <option>Uttar Pradesh</option>
+            <option>Uttarakhand</option>
+            <option>West Bengal</option>
+        </select>
+        <select id="district">
+            <option>Select District</option>
+        </select>
+        <select id="area">
+            <option>Select Area</option>
+        </select>
+        <button>Search</button>
+    </div>
+
+    <!-- Hero Section -->
+    <div class="hero">
+        <h1>Find & Review Local Grocery Shops in Your Area</h1>
+        <p>Discover and review trusted local grocery shops with the help of AI insights.</p>
+        <a href="shop.html"><button>Browse Shops</button></a>
+    </div>
+
+    <!-- Main Content -->
+    <div class="main-content">
+        <!-- Left Panel: Shop Listings -->
+        <div class="left-panel">
+            <div class="shop-card">
+                <img src="grocery.jpg" alt="Patel Grocery">
+                <div class="info">
+                    <h3>Ghosh Traders</h3>
+                    <p>Charapole, Kampa</p>
+                    <div class="stars">★★★★★</div>
+                    <div class="buttons">
+                        <button>About Shop</button>
+                        <button>Location</button>
+                        <button>Reviews</button>
+                    </div>
+                </div>
+            </div>
+            <div class="shop-card">
+                <img src="grocery.jpg" alt="Green Fresh Mart">
+                <div class="info">
+                    <h3>Green Fresh Mart</h3>
+                    <p>Mondal Bazar, Halisahar</p>
+                    <div class="stars">★★★★☆</div>
+                    <div class="buttons">
+                        <button>About Shop</button>
+                        <button>Location</button>
+                        <button>Reviews</button>
+                    </div>
+                </div>
+            </div>
+            <div class="shop-card">
+                <img src="grocery.jpg" alt="Singh’s Grocers">
+                <div class="info">
+                    <h3>Singh’s Grocers</h3>
+                    <p>New Colony</p>
+                    <div class="stars">★★★★★</div>
+                    <div class="buttons">
+                        <button>About Shop</button>
+                        <button>Location</button>
+                        <button>Reviews</button>
+                    </div>
+                </div>
+            </div>
+            <div class="shop-card">
+                <img src="grocery.jpg" alt="Patel Grocery">
+                <div class="info">
+                    <h3>Patel Grocery</h3>
+                    <p>Downtown Area</p>
+                    <div class="stars">★★★★☆</div>
+                    <div class="buttons">
+                        <button>About Shop</button>
+                        <button>Location</button>
+                        <button>Reviews</button>
+                    </div>
+                </div>
+            </div>
+            <div class="shop-card">
+                <img src="grocery.jpg" alt="Kumar Stores">
+                <div class="info">
+                    <h3>Kumar Stores</h3>
+                    <p>Market Square</p>
+                    <div class="stars">★★★★★</div>
+                    <div class="buttons">
+                        <button>About Shop</button>
+                        <button>Location</button>
+                        <button>Reviews</button>
+                    </div>
+                </div>
+            </div>
+            <div class="shop-card">
+                <img src="grocery.jpg" alt="Sharma Provisions">
+                <div class="info">
+                    <h3>Sharma Provisions</h3>
+                    <p>Residential Zone</p>
+                    <div class="stars">★★★☆☆</div>
+                    <div class="buttons">
+                        <button>About Shop</button>
+                        <button>Location</button>
+                        <button>Reviews</button>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <!-- Right Panel: AI Suggestions -->
+        <div class="right-panel">
+            <div class="ai-suggestions">
+                <h2>AI Suggestions for Grocers</h2>
+                <p>Improve visibility & service with AI recommendations</p>
+                <div class="suggestion">
+                    <img src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMzAiIGhlaWdodD0iMzAiIHZpZXdCb3g9IjAgMCAzMCAzMCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHJlY3Qgd2lkdGg9IjMwIiBoZWlnaHQ9IjMwIiByeD0iNSIgZmlsbD0iIzREQTMzRkYiLz4KPHBhdGggZD0iTTE1IDVMMjAgMTBNMjAgMTVMMTUgMjBNMTAgMTVMMTAgMTBaIiBzdHJva2U9IndoaXRlIiBzdHJva2Utd2lkdGg9IjIiIGZpbGw9Im5vbmUiLz4KPC9zdmc+Cg==" alt="Chart Icon">
+                    <p>Customers mention fresh produce – Highlight in your ads</p>
+                </div>
+                <div class="suggestion">
+                    <img src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMzAiIGhlaWdodD0iMzAiIHZpZXdCb3g9IjAgMCAzMCAzMCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHJlY3Qgd2lkdGg9IjMwIiBoZWlnaHQ9IjMwIiByeD0iNSIgZmlsbD0iIzREQTMzRkYiLz4KPHBhdGggZD0iTTE1IDVMMTggMTBNMTggMTVMMTUgMjBNMTIgMTVMMTIgMTBaIiBzdHJva2U9IndoaXRlIiBzdHJva2Utd2lkdGg9IjIiIGZpbGw9Im5vbmUiLz4KPC9zdmc+Cg==" alt="People Icon">
+                    <p>Compare prices with nearby shops for competitive pricing</p>
+                </div>
+                <div class="suggestion">
+                    <img src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMzAiIGhlaWdodD0iMzAiIHZpZXdCb3g9IjAgMCAzMCAzMCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHJlY3Qgd2lkdGg9IjMwIiBoZWlnaHQ9IjMwIiByeD0iNSIgZmlsbD0iIzREQTMzRkYiLz4KPHBhdGggZD0iTTE1IDVMMTggMTBNMTggMTVMMTUgMjBNMTIgMTVMMTIgMTBaIiBzdHJva2U9IndoaXRlIiBzdHJva2Utd2lkdGg9IjIiIGZpbGw9Im5vbmUiLz4KPC9zdmc+Cg==" alt="Clock Icon">
+                    <p>Add one more cashier during peak hours to reduce waiting time</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Trust Section -->
+    <div class="trust-section">
+        <h2>Connecting Customers & Shopkeepers Through Honest Reviews</h2>
+        <img src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwIiBoZWlnaHQ9IjEwMCIgdmlld0JveD0iMCAwIDEwMCAxMDAiIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3ZnIj4KPHJlY3Qgd2lkdGg9IjEwMCIgaGVpZ2h0PSIxMDAiIHJ4PSIxMCIgZmlsbD0iIzREQTMzRkYiLz4KPHBhdGggZD0iTTUwIDI1QzU1LjUyMjggMjUgNjAgMzAuNTIyOCA2MCAzNkM2MCA0MS40NzcyIDU1LjUyMjggNDYgNTAgNDZDNDQuNDc3MiA0NiA0MCA0MS40NzcyIDQwIDM2QzQwIDMwLjUyMjggNDQuNDc3MiAyNSA1MCAyNVoiIGZpbGw9IndoaXRlIi8+CjxwYXRoIGQ9Ik01MCA0MEM1Mi4yMDkxIDQwIDU0IDQyLjIwOTEgNTQgNDVDNTQgNDcuNzkwOSA1Mi4yMDkxIDUwIDUwIDUwQzQ3Ljc5MDkgNTAgNDYgNDcuNzkwOSA0NiA0NUM0NiA0Mi4yMDkxIDQ3Ljc5MDkgNDAgNTAgNDBaIiBmaWxsPSIjNERBM0ZGRiIvPgo8L3N2Zz4K" alt="AI Brain Illustration">
+    </div>
+
+    <!-- Footer Icons -->
+    <div class="footer-icons">
+        <div class="icon">
+            <img src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNTAiIGhlaWdodD0iNTAiIHZpZXdCb3g9IjAgMCA1MCA1MCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHJlY3Qgd2lkdGg9IjUwIiBoZWlnaHQ9IjUwIiByeD0iMTAiIGZpbGw9IiM0REEzRkYiLz4KPHBhdGggZD0iTTI1IDE1TDMwIDIwTDMwIDI1TDI1IDMwTDIwIDI1TDIwIDIwWiIgc3Ryb2tlPSJ3aGl0ZSIgc3Ryb2tlLXdpZHRoPSIyIiBmaWxsPSJub25lIi8+Cjwvc3ZnPgo=" alt="Badge Icon">
+            <p>Genuine Reviews</p>
+        </div>
+        <div class="icon">
+            <img src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNTAiIGhlaWdodD0iNTAiIHZpZXdCb3g9IjAgMCA1MCA1MCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHJlY3Qgd2lkdGg9IjUwIiBoZWlnaHQ9IjUwIiByeD0iMTAiIGZpbGw9IiM0REEzRkYiLz4KPHBhdGggZD0iTTI1IDEwQzI3Ljc2MTQgMTAgMzAgMTIuNzYxNCAzMCAxNUMzMCAxNy4yMzg2IDI3Ljc2MTQgMjAgMjUgMjBDMjIuMjM4NiAyMCAyMCAxNy4yMzg2IDIwIDE1QzIwIDEyLjc2MTQgMjIuMjM4NiAxMCAyNSAxMFoiIGZpbGw9IndoaXRlIi8+Cjwvc3ZnPgo=" alt="Brain Icon">
+            <p>AI Insights</p>
+        </div>
+        <div class="icon">
+            <img src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNTAiIGhlaWdodD0iNTAiIHZpZXdCb3g9IjAgMCA1MCA1MCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHJlY3Qgd2lkdGg9IjUwIiBoZWlnaHQ9IjUwIiByeD0iMTAiIGZpbGw9IiM0REEzRkYiLz4KPHBhdGggZD0iTTI1IDE1QzI3LjIwOTEgMTUgMjkgMTYuNzA5MSAyOSA5QzI5IDIxLjIwOTEgMjYuNzA5MSAyNCAyNSAyNEMyMy4yOTA5IDI0IDIxIDIxLjIwOTEgMjEgMTlDMjEgMTYuNzA5MSAyMi43OTA5IDE1IDI1IDE1WiIgc3Ryb2tlPSJ3aGl0ZSIgc3Ryb2tlLXdpZDRoPSIyIiBmaWxsPSJub25lIi8+Cjwvc3ZnPgo=" alt="Cart Icon">
+            <p>Better Shopping</p>
+        </div>
+    </div>
+</body>
+<script src="js/script.js"></script>
+</html>

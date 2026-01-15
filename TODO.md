@@ -1,0 +1,6 @@
+- [x] Define districts object with arrays for all Indian states
+- [x] Update the JavaScript event listener to populate districts based on selected state
+- [x] Move inline CSS to external file (css/style.css)
+- [x] Move inline JS to external file (js/script.js)
+- [x] Create shop.html page and link "Browse Shops" button to it
+- [ ] Test the functionality by changing states in the select
